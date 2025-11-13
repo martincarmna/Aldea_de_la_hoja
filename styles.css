@@ -53,13 +53,14 @@ header{
 nav{
 display: flex;
 justify-content: space-around;
-align-items: center;
+align-items: center center;
 background-color: transparent /*#0D1B2A*/;
 padding: 15px;
 background-image: none;
- 
 
 }
+
+
 nav a{
 font-family: 'NinjaNaruto';
 color: white;
@@ -91,8 +92,9 @@ footer{
 }
 
 .card{
-    container: initial;
-    background-image: none;
+    width: 100%;
+    display: flex;
+    padding: auto;
 
 }
 h1{
@@ -173,4 +175,9 @@ h4{
 button{
     background-color: orange;
     box-align: center;
+}
+
+.Grid {
+    display: inline-block ;
+    
 }
